@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+
+
+}
+
+
+
+
+body{
+    height: 100px;
+    width: 100%;
+    background-color: #6b0f1a;
+background-image: linear-gradient(315deg, #6b0f1a 0%, #b91372 74%);
+   
+}
+.wrapper{
+    margin: 120px auto;
+    max-width: 400px;
+    width:100%;
+    background: #fff; ;
+    border-radius: 5px;
+    padding: 25px;
+   
+    
+}
+.wrapper header{
+    font-size: 40px;
+    font-weight:600px;
+}
+.wrapper .inputField{
+    display: flex;
+    height:45px;
+    width:100%;
+    margin:10px;
+    margin-left: 3px;
+}
+.inputField input{
+    width:85%;
+    height:100%;
+    border:1px solid #ccc;
+    font-size:17px;
+    border-radius:3px;
+    padding-left:15px;
+}
+.inputField button{
+    width:60px;
+    height:100%;
+    border: none;
+    background-color: rgba(201, 8, 34, 0.904);
+    font-size: 22px;
+    border-radius: 3px;
+    cursor:pointer;
+    margin-left: 3px;
+    outline: none;
+    opacity: 0.6;
+    pointer-events: none;
+   
+
+}.inputField button.active{
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+.wrapper .todo-list{
+    max-height: 250px;
+
+}
+.todo-list li{
+    list-style:none;
+    height: 45px;
+    line-height:45px;
+    position: relative;
+    background: #ee5166;
+    border-radius:3px;
+    margin-bottom:8px;
+    padding:0 15px;
+
+}
+.todo-list li span{
+    position:absolute;
+    right:0px;
+    color:#ee5166;
+    width: 45px;
+    text-align:center;
+    border-radius:0 3px 3px 0;
+    background-color: #ee8e6b;
+    background-image: linear-gradient(315deg, #ee8e6b 0%, #ef6da0 74%);
+    cursor: pointer;
+
+}
+.wrapper .footer{
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+.footer button{
+    
+    border: none;
+    background: rgba(212, 200, 201, 0.904);
+    font-size: 22px;
+    border-radius: 3px;
+    cursor:pointer;
+    margin-left: 3px;
+    outline: none;
+    color: #000000;
+
+
+}
